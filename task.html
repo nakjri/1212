@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>задание семинара</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Cormorant Garamond', serif, Georgia, serif;
+            background: linear-gradient(135deg, #fff9f5 0%, #f8f4f0 100%);
+            color: #5a4a42;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 50px 20px 30px;
+            position: relative;
+        }
+        .header::before {
+            content: "❀";
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            font-size: 32px;
+            color: #d4bda0;
+            transform: rotate(-15deg);
+        }
+        .header::after {
+            content: "❀";
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            font-size: 32px;
+            color: #d4bda0;
+            transform: rotate(15deg);
+        }
+        h1 {
+            font-size: 42px;
+            color: #8b6b5b;
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+            font-weight: 300;
+        }
+        .task-content {
+            text-align: center;
+            padding: 90px 50px;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(139, 107, 91, 0.2);
+            margin: 50px auto;
+            max-width: 700px;
+            border: 2px dashed #e8d9c7;
+            position: relative;
+        }
+                .task-content::before {
+            content: "🌸";
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 28px;
+            color: #d4bda0;
+        }
+        .task-text {
+            font-size: 26px;
+            font-weight: bold;
+            color: #7a5a48;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 14px 30px;
+            background-color: #f0e6d8;
+            color: #8b6b5b;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 18px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(240, 230, 216, 0.4);
+        }
+        .back-link:hover {
+            background-color: #e6d9c8;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(240, 230, 216, 0.5);
+        }
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #8b6b5b;
+            font-size: 14px;
+            border-top: 1px solid #e8d9c7;
+            margin-top: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>задание семинара</h1>
+        </header>
+        <main>
+            <div class="task-content">
+                <p class="task-text">Найди 2 участников, у которых есть общее хобби с тобой. Представься и кратко обсуди это</p>
+                <a href="index.html" class="back-link">Вернуться на главную</a>
+            </div>
+        </main>
+        <footer>
+                   </footer>
+    </div>
+</body>
+</html>
